@@ -4,5 +4,11 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="Budget">Budget</string>
+    <string name="Income">Income</string>
+    <string name="Expenses">Expenses</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Report">Report</string>
+
     <string name="action_settings">Settings</string>
 </resources>
