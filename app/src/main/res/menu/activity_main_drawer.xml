@@ -8,11 +8,11 @@
             android:title="@string/Budget" />
         <item
             android:id="@+id/nav_schedule"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_schedule"
             android:title="@string/Schedule" />
         <item
             android:id="@+id/nav_report"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_report"
             android:title="@string/Report" />
 
     </group>
