@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.machera.jipangekwanza.R;
 
+@SuppressWarnings("ALL")
 public class Login extends AppCompatActivity {
 
     @Override
