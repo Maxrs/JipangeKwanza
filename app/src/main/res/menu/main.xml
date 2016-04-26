@@ -8,11 +8,13 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_help"
         android:orderInCategory="101"
         android:title="Help"
         app:showAsAction="never"
         tools:ignore="HardcodedText" />
     <item
+        android:id="@+id/action_about"
         android:orderInCategory="102"
         android:title="About"
         app:showAsAction="never"
