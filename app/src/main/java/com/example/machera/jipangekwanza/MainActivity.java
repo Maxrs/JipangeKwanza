@@ -1,5 +1,6 @@
 package com.example.machera.jipangekwanza;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.machera.jipangekwanza.PackageActivity.BudgetActivity;
+import com.example.machera.jipangekwanza.PackageActivity.ScheduleActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -81,8 +85,11 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_budget) {
-            // Handle the camera action
+            Intent budget = new Intent(this, BudgetActivity.class);
+            startActivity(budget);
         } else if (id == R.id.nav_schedule) {
+            Intent schedule = new Intent(this, ScheduleActivity.class);
+            startActivity(schedule);
 
         } else if (id == R.id.nav_report) {
 

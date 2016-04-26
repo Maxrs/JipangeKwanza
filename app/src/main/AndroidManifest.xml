@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Packagesign.Login" />
+        <activity android:name=".Packagesign.signinActivity" />
+        <activity android:name=".PackageActivity.BudgetActivity" />
+        <activity android:name=".PackageActivity.ScheduleActivity"></activity>
     </application>
 
 </manifest>
